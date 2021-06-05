@@ -22,6 +22,8 @@ A：`jsDelivr`是国外的一家优秀的公共 CDN 服务提供商，该平台�
 
 ![20210606000138](https://cdn.jsdelivr.net/gh/wu529778790/image/blog/20210606000138.png)
 
-4. https://picgo.github.io/PicGo-Doc/zh/guide/config.html#github%E5%9B%BE%E5%BA%8A
+4. 配置文档
+ 
+ https://picgo.github.io/PicGo-Doc/zh/guide/config.html#github%E5%9B%BE%E5%BA%8A
 
 ![20210606000309](https://cdn.jsdelivr.net/gh/wu529778790/image/blog/20210606000309.png)
