@@ -14,6 +14,18 @@ A：推荐使用GitHub作为图床，特点是免费、稳定，有一个小缺�
 
 A：`jsDelivr`是国外的一家优秀的公共 CDN 服务提供商，该平台是首个「打通中国大陆与海外的免费CDN服务」，无须担心中国防火墙问题而影响使用。官网：<http://www.jsdelivr.com/>
 
+**Q：jsdelivr的限制增加了仓库总存储超过50MB的会停止加速服务，当图片过多超过50MB时就没法使用加速了，需要另寻CDN加速服务
+
+Statically CDN 使用了Anycast CDN（Anycast Internet Acceleration，AIA）中国大陆大概率分配使用日本东京的节点，据说有国内节点，但十次有九次是海外的，不是美国，加拿大就是日本，韩国，但速度还不错，比jsdelivr的CloudFlare快了一点，CloudFlare在中国有节点，但是不用，一直都是走美西的节点
+
+Tips:jsdelivr主要用CloudFlare其次是fastly，Statically正好相反
+
+使用方式 https://cdn.statically.com/gh/:user/:repo/:tag/:file
+
+域名是cdn.staticaly.com 
+
+cdn.statically.io是面向海外用户的，访问会显示连接超时
+
 ## 步骤
 
 1. github创建存储图片资源的仓库image
