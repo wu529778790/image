@@ -1,4 +1,4 @@
-# github图床(利用picGo + github +  jsDelivr)
+# github图床(利用picGo + github +  jsDelivr / Statically)
 
 ## 前言
 
