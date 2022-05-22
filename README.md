@@ -26,6 +26,21 @@ Tips:jsdelivr主要用CloudFlare其次是fastly，Statically正好相反
 
 cdn.statically.io是面向海外用户的，访问会显示连接超时
 
+### 域名替换
+
+cdn.jsdelivr.net  叕被污染了
+
+可以用下面的替换
+
+gcore.jsdelivr.net/
+
+fastly.jsdelivr.net/
+
+originfastly.jsdelivr.net/
+
+testingcf.jsdelivr.net/
+
+
 ## 步骤
 
 1. github创建存储图片资源的仓库image
