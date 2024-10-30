@@ -32,7 +32,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git fetch
-          git checkout gh-pages
+          git checkout -b gh-pages || git checkout gh-pages
           git rm -rf .
           cp -rf dist/* .
           echo 'dist/' >> .gitignore
