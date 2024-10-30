@@ -36,6 +36,7 @@ jobs:
           git rm -rf .
           cp -rf dist/* .
           echo 'dist/' >> .gitignore
+          echo 'node_modules/' >> .gitignore
           git add .
           git commit -m "Deploy to GitHub Pages"
           git push -f origin gh-pages
